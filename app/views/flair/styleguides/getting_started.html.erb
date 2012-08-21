@@ -1,0 +1,22 @@
+<h2>Getting Started</h2>
+
+<p>
+  Because Flair is just a Rails engine, it works much like a Rails application.
+  It has views, controllers, and assets just like the app that's running now.
+  Because of this, setting up a styleguide does not limit you to just what you
+  put in your stylesheets.
+</p>
+
+<p>
+  Any HTML file that you put into <code>app/views/flair/styleguides/</code>
+  can then be referenced when you call <code>styleguide_path()</code>.
+</p>
+
+<p>
+  The other nice thing about Flair is that it stays out of the way. I made sure
+  to namespace as much of the Flair-specifics as I could so that your styles
+  can shine through. Flair will not override any of your default styles, resets,
+  or components. The only styles that are controlled by Flair are prefixed with
+  <code>.flair-<...></code>. That also means that if you don't like something
+  about the default theme you can easily update it in your own stylesheets.
+</p>
